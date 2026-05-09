@@ -1,0 +1,67 @@
+/* Boutique.css */
+.boutique-page { padding-top: 80px; }
+
+.boutique-hero {
+  background: linear-gradient(135deg, var(--rose-pale) 0%, var(--beige) 100%);
+  padding: 5rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--beige-deep);
+}
+.boutique-hero .eyebrow {
+  display: inline-block;
+  font-size: 0.8rem; font-weight: 500;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 1rem;
+}
+.boutique-hero h1 { font-style: italic; color: var(--dark); margin-bottom: 0.75rem; }
+.boutique-hero p { color: var(--text-light); font-size: 1.05rem; }
+
+.boutique-filters {
+  display: flex; gap: 0.75rem;
+  flex-wrap: wrap; justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.4rem;
+  border: 1.5px solid var(--beige-deep);
+  border-radius: 50px;
+  background: var(--white);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.filter-btn:hover { border-color: var(--gold); color: var(--gold); }
+.filter-btn--active {
+  background: var(--gold); border-color: var(--gold);
+  color: var(--white);
+}
+
+.boutique-count {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.boutique-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.boutique-empty {
+  text-align: center;
+  padding: 5rem 0;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .boutique-grid { grid-template-columns: 1fr; }
+}

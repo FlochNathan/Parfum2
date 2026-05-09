@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# Passer le header Authorization à PHP (Apache le supprime sinon)
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Autoriser l'accès aux uploads (pas de rewrite)
+RewriteRule ^uploads/ - [L]
+
+# Router les appels API
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^api/auth/login$ api/auth.php [L,QSA]
+RewriteRule ^api/produits/?$ api/produits.php [L,QSA]
+RewriteRule ^api/produits/([0-9]+)$ api/produits.php [L,QSA]
+RewriteRule ^api/contact$ api/contact.php [L,QSA]
+RewriteRule ^api/commandes/?$ api/commandes.php [L,QSA]
+RewriteRule ^api/commandes/([0-9]+)$ api/commandes.php [L,QSA]

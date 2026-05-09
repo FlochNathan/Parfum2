@@ -1,0 +1,14 @@
+{
+  "name": "douceurs-laura",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently -n SERVER,FRONT -c cyan,magenta \"npm run dev --prefix server\" \"npm start --prefix frontend\"",
+    "start": "concurrently -n SERVER,FRONT -c cyan,magenta \"npm start --prefix server\" \"npm start --prefix frontend\"",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix frontend",
+    "server": "npm run dev --prefix server",
+    "frontend": "npm start --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

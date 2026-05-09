@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec backend php -r \"echo password_hash\\('Laura2024!', PASSWORD_BCRYPT\\);\")",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec db mysql -uroot -proot douceurs_laura -e \"UPDATE admin SET password_hash='\\\\$2y\\\\$10\\\\$IPQtASAOc1FcajZE4GhRxeuEe9slMEaP8QUF1a8xZQ0i7NqaJoR0C' WHERE username='admin';\")",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec db mysql -uroot -proot douceurs_laura -e 'UPDATE admin SET password_hash=\"$2y$10$IPQtASAOc1FcajZE4GhRxeuEe9slMEaP8QUF1a8xZQ0i7NqaJoR0C\" WHERE username=\"admin\";')",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec backend php //var/www/html/reset_password.php)",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec backend php -r 'try { $pdo = new PDO\\(\"mysql:host=db;dbname=douceurs_laura;charset=utf8mb4\",\"root\",\"root\"\\); echo \"Connected\"; } catch\\(Exception $e\\) { echo $e->getMessage\\(\\); }')",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec backend curl -s -X POST \"http://localhost/api/auth.php\" -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"Laura2024!\"}' -v 2>&1 | tail -20)",
+      "Bash(cd \"C:/Users/floch/Documents/e-commerce/laura\" && docker compose exec backend curl -s -X POST \"http://localhost/debug.php\" -H \"Content-Type: application/json\" -d '{\"username\":\"admin\",\"password\":\"Laura2024!\"}')"
+    ]
+  }
+}
