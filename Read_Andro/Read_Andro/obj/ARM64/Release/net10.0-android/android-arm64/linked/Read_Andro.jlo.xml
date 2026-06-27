@@ -1,0 +1,36 @@
+<api>
+  <jcw-types>
+    <type name="BootReceiver" package="crc647257767dbea74abd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.content.BroadcastReceiver" partial_assembly_qualified_name="Read_Andro.BootReceiver, Read_Andro">
+      <constructors>
+        <constructor name="BootReceiver" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onReceive" method="n_onReceive:(Landroid/content/Context;Landroid/content/Intent;)V:GetOnReceive_Landroid_content_Context_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Context;Landroid/content/Intent;)V" params="android.content.Context p0, android.content.Intent p1" retval="void" super_call="p0, p1" activate_call="p0, p1" />
+      </methods>
+    </type>
+    <type name="MainActivity" package="crc647257767dbea74abd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Activity" partial_assembly_qualified_name="Read_Andro.MainActivity, Read_Andro">
+      <constructors>
+        <constructor name="MainActivity" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler" jni_signature="(Landroid/os/Bundle;)V" params="android.os.Bundle p0" retval="void" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+    <type name="MyForegroundService" package="crc647257767dbea74abd" application_java_class="android.app.Application" mono_runtime_initialization="mono.MonoPackageManager.LoadApplication (context);" extends_type="android.app.Service" partial_assembly_qualified_name="Read_Andro.MyForegroundService, Read_Andro">
+      <constructors>
+        <constructor name="MyForegroundService" method="n_.ctor:()V:" jni_signature="()V" managed_parameters="" retval="void" is_dynamically_registered="True" />
+      </constructors>
+      <methods>
+        <method name="onCreate" method="n_onCreate:()V:GetOnCreateHandler" jni_signature="()V" retval="void" />
+        <method name="onStartCommand" method="n_onStartCommand:(Landroid/content/Intent;II)I:GetOnStartCommand_Landroid_content_Intent_IIHandler" jni_signature="(Landroid/content/Intent;II)I" params="android.content.Intent p0, int p1, int p2" retval="int" super_call="p0, p1, p2" activate_call="p0, p1, p2" />
+        <method name="onDestroy" method="n_onDestroy:()V:GetOnDestroyHandler" jni_signature="()V" retval="void" />
+        <method name="onBind" method="n_onBind:(Landroid/content/Intent;)Landroid/os/IBinder;:GetOnBind_Landroid_content_Intent_Handler" jni_signature="(Landroid/content/Intent;)Landroid/os/IBinder;" params="android.content.Intent p0" retval="android.os.IBinder" super_call="p0" activate_call="p0" />
+      </methods>
+    </type>
+  </jcw-types>
+  <acw-types partial-assembly-name="Read_Andro" module-name="Read_Andro.dll">
+    <type assembly-qualified-name="Read_Andro.BootReceiver, Read_Andro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="read_andro.BootReceiver" java-key="crc647257767dbea74abd.BootReceiver" managed-key="Read_Andro.BootReceiver" partial-assembly-qualified-name="Read_Andro.BootReceiver, Read_Andro" />
+    <type assembly-qualified-name="Read_Andro.MainActivity, Read_Andro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="read_andro.MainActivity" java-key="crc647257767dbea74abd.MainActivity" managed-key="Read_Andro.MainActivity" partial-assembly-qualified-name="Read_Andro.MainActivity, Read_Andro" />
+    <type assembly-qualified-name="Read_Andro.MyForegroundService, Read_Andro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" compat-jni-name="read_andro.MyForegroundService" java-key="crc647257767dbea74abd.MyForegroundService" managed-key="Read_Andro.MyForegroundService" partial-assembly-qualified-name="Read_Andro.MyForegroundService, Read_Andro" />
+  </acw-types>
+</api>

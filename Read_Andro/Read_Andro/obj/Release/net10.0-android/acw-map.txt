@@ -1,0 +1,90 @@
+Android.Content.ISharedPreferences, Mono.Android;android.content.SharedPreferences
+Android.Content.ISharedPreferences;android.content.SharedPreferences
+android.content.SharedPreferences;android.content.SharedPreferences
+Android.Content.ISharedPreferencesEditor, Mono.Android;android.content.SharedPreferences$Editor
+Android.Content.ISharedPreferencesEditor;android.content.SharedPreferences$Editor
+android.content.SharedPreferences$Editor;android.content.SharedPreferences$Editor
+Android.Content.ISharedPreferencesOnSharedPreferenceChangeListener, Mono.Android;android.content.SharedPreferences$OnSharedPreferenceChangeListener
+Android.Content.ISharedPreferencesOnSharedPreferenceChangeListener;android.content.SharedPreferences$OnSharedPreferenceChangeListener
+android.content.SharedPreferences$OnSharedPreferenceChangeListener;android.content.SharedPreferences$OnSharedPreferenceChangeListener
+Android.OS.IBinder, Mono.Android;android.os.IBinder
+Android.OS.IBinder;android.os.IBinder
+android.os.IBinder;android.os.IBinder
+Android.OS.IBinder+IFrozenStateChangeCallback, Mono.Android;android.os.IBinder$FrozenStateChangeCallback
+Android.OS.IBinder.IFrozenStateChangeCallback;android.os.IBinder$FrozenStateChangeCallback
+android.os.IBinder$FrozenStateChangeCallback;android.os.IBinder$FrozenStateChangeCallback
+Android.OS.IBinderDeathRecipient, Mono.Android;android.os.IBinder$DeathRecipient
+Android.OS.IBinderDeathRecipient;android.os.IBinder$DeathRecipient
+android.os.IBinder$DeathRecipient;android.os.IBinder$DeathRecipient
+Android.OS.IInterface, Mono.Android;android.os.IInterface
+Android.OS.IInterface;android.os.IInterface
+android.os.IInterface;android.os.IInterface
+Android.Runtime.InputStreamAdapter, Mono.Android;mono.android.runtime.InputStreamAdapter
+Android.Runtime.InputStreamAdapter;mono.android.runtime.InputStreamAdapter
+mono.android.runtime.InputStreamAdapter;mono.android.runtime.InputStreamAdapter
+Android.Runtime.JavaObject, Mono.Android;mono.android.runtime.JavaObject
+Android.Runtime.JavaObject;mono.android.runtime.JavaObject
+mono.android.runtime.JavaObject;mono.android.runtime.JavaObject
+Android.Runtime.JavaProxyThrowable, Mono.Android;android.runtime.JavaProxyThrowable
+Android.Runtime.JavaProxyThrowable;android.runtime.JavaProxyThrowable
+android.runtime.JavaProxyThrowable;android.runtime.JavaProxyThrowable
+Android.Runtime.OutputStreamAdapter, Mono.Android;mono.android.runtime.OutputStreamAdapter
+Android.Runtime.OutputStreamAdapter;mono.android.runtime.OutputStreamAdapter
+mono.android.runtime.OutputStreamAdapter;mono.android.runtime.OutputStreamAdapter
+Java.IO.ISerializable, Mono.Android;java.io.Serializable
+Java.IO.ISerializable;java.io.Serializable
+java.io.Serializable;java.io.Serializable
+Java.Lang.ICharSequence, Mono.Android;java.lang.CharSequence
+Java.Lang.ICharSequence;java.lang.CharSequence
+java.lang.CharSequence;java.lang.CharSequence
+Java.Lang.IRunnable, Mono.Android;java.lang.Runnable
+Java.Lang.IRunnable;java.lang.Runnable
+java.lang.Runnable;java.lang.Runnable
+Java.Lang.Thread+RunnableImplementor, Mono.Android;mono.java.lang.RunnableImplementor
+Java.Lang.Thread.RunnableImplementor;mono.java.lang.RunnableImplementor
+mono.java.lang.RunnableImplementor;mono.java.lang.RunnableImplementor
+Java.Security.IKey, Mono.Android;java.security.Key
+Java.Security.IKey;java.security.Key
+java.security.Key;java.security.Key
+Java.Security.IPrincipal, Mono.Android;java.security.Principal
+Java.Security.IPrincipal;java.security.Principal
+java.security.Principal;java.security.Principal
+Java.Security.IPrivateKey, Mono.Android;java.security.PrivateKey
+Java.Security.IPrivateKey;java.security.PrivateKey
+java.security.PrivateKey;java.security.PrivateKey
+Java.Security.Spec.IKeySpec, Mono.Android;java.security.spec.KeySpec
+Java.Security.Spec.IKeySpec;java.security.spec.KeySpec
+java.security.spec.KeySpec;java.security.spec.KeySpec
+Java.Util.Concurrent.IExecutor, Mono.Android;java.util.concurrent.Executor
+Java.Util.Concurrent.IExecutor;java.util.concurrent.Executor
+java.util.concurrent.Executor;java.util.concurrent.Executor
+Java.Util.Functions.IConsumer, Mono.Android;java.util.function.Consumer
+Java.Util.Functions.IConsumer;java.util.function.Consumer
+java.util.function.Consumer;java.util.function.Consumer
+Java.Util.IEnumeration, Mono.Android;java.util.Enumeration
+Java.Util.IEnumeration;java.util.Enumeration
+java.util.Enumeration;java.util.Enumeration
+Java.Util.IIterator, Mono.Android;java.util.Iterator
+Java.Util.IIterator;java.util.Iterator
+java.util.Iterator;java.util.Iterator
+Javax.Net.Ssl.IHostnameVerifier, Mono.Android;javax.net.ssl.HostnameVerifier
+Javax.Net.Ssl.IHostnameVerifier;javax.net.ssl.HostnameVerifier
+javax.net.ssl.HostnameVerifier;javax.net.ssl.HostnameVerifier
+Javax.Net.Ssl.IKeyManager, Mono.Android;javax.net.ssl.KeyManager
+Javax.Net.Ssl.IKeyManager;javax.net.ssl.KeyManager
+javax.net.ssl.KeyManager;javax.net.ssl.KeyManager
+Javax.Net.Ssl.ISSLSession, Mono.Android;javax.net.ssl.SSLSession
+Javax.Net.Ssl.ISSLSession;javax.net.ssl.SSLSession
+javax.net.ssl.SSLSession;javax.net.ssl.SSLSession
+Javax.Net.Ssl.ISSLSessionContext, Mono.Android;javax.net.ssl.SSLSessionContext
+Javax.Net.Ssl.ISSLSessionContext;javax.net.ssl.SSLSessionContext
+javax.net.ssl.SSLSessionContext;javax.net.ssl.SSLSessionContext
+Javax.Net.Ssl.ITrustManager, Mono.Android;javax.net.ssl.TrustManager
+Javax.Net.Ssl.ITrustManager;javax.net.ssl.TrustManager
+javax.net.ssl.TrustManager;javax.net.ssl.TrustManager
+Read_Andro.MainActivity, Read_Andro;crc647257767dbea74abd.MainActivity
+Read_Andro.MainActivity;crc647257767dbea74abd.MainActivity
+read_andro.MainActivity;crc647257767dbea74abd.MainActivity
+Read_Andro.MyForegroundService, Read_Andro;crc647257767dbea74abd.MyForegroundService
+Read_Andro.MyForegroundService;crc647257767dbea74abd.MyForegroundService
+read_andro.MyForegroundService;crc647257767dbea74abd.MyForegroundService

@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Read_Andro" mvid="0f82a5d09a164491ada6782126ece59a">
+  <java-to-managed>
+    <entry java-name="crc647257767dbea74abd/MainActivity" managed-name="Read_Andro.MainActivity, Read_Andro" managed-type-token-id="33554435" />
+    <entry java-name="crc647257767dbea74abd/MyForegroundService" managed-name="Read_Andro.MyForegroundService, Read_Andro" managed-type-token-id="33554436" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc647257767dbea74abd/MainActivity" managed-name="Read_Andro.MainActivity, Read_Andro" managed-type-token-id="33554435" />
+    <entry java-name="crc647257767dbea74abd/MyForegroundService" managed-name="Read_Andro.MyForegroundService, Read_Andro" managed-type-token-id="33554436" />
+  </managed-to-java>
+</api>

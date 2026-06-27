@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\bootreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\bootreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\mipmap-anydpi-v26\\appicon.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\mipmap-anydpi-v26\\appicon.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\myforegroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\myforegroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\aboutresources.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\aboutresources.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\values\\strings.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\values\\strings.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\read_andro.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\read_andro.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\mipmap-anydpi-v26\\appicon_round.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\mipmap-anydpi-v26\\appicon_round.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\values\\ic_launcher_background.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\values\\ic_launcher_background.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|c:\\nathan\\programmation\\programme test\\read_andro\\read_andro\\resources\\layout\\activity_main.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
+      "RelativeMoniker": "D:0:0:{92FE9E33-2D0F-8F49-3F31-6F0F1AB0DFBE}|Read_Andro\\Read_Andro.csproj|solutionrelative:read_andro\\resources\\layout\\activity_main.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b2375e54-d885-3426-9cf9-ca48e71a58bc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appicon.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon.xml",
+              "RelativeToolTip": "Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T14:01:33.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BootReceiver.cs",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\BootReceiver.cs",
+              "RelativeDocumentMoniker": "Read_Andro\\BootReceiver.cs",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\BootReceiver.cs",
+              "RelativeToolTip": "Read_Andro\\BootReceiver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T13:56:53.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\AndroidManifest.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\AndroidManifest.xml",
+              "RelativeToolTip": "Read_Andro\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T13:56:21.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\AndroidManifest.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\AndroidManifest.xml",
+              "RelativeToolTip": "Read_Andro\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T13:46:24.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyForegroundService.cs",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\MyForegroundService.cs",
+              "RelativeDocumentMoniker": "Read_Andro\\MyForegroundService.cs",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\MyForegroundService.cs",
+              "RelativeToolTip": "Read_Andro\\MyForegroundService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAUwHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:54:28.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutResources.txt",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\AboutResources.txt",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\AboutResources.txt",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\AboutResources.txt",
+              "RelativeToolTip": "Read_Andro\\Resources\\AboutResources.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-22T11:45:41.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "strings.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\values\\strings.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\values\\strings.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\values\\strings.xml",
+              "RelativeToolTip": "Read_Andro\\Resources\\values\\strings.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T11:43:55.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Read_Andro",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_andro\\Read_Andro\\Read_Andro.csproj",
+              "RelativeDocumentMoniker": "Read_Andro\\Read_Andro.csproj",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_andro\\Read_Andro\\Read_Andro.csproj",
+              "RelativeToolTip": "Read_Andro\\Read_Andro.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T12:23:53.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Read_Andro\\MainActivity.cs",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\MainActivity.cs",
+              "RelativeToolTip": "Read_Andro\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:42:04.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appicon_round.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon_round.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon_round.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon_round.xml",
+              "RelativeToolTip": "Read_Andro\\Resources\\mipmap-anydpi-v26\\appicon_round.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T11:43:14.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ic_launcher_background.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\values\\ic_launcher_background.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\values\\ic_launcher_background.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\values\\ic_launcher_background.xml",
+              "RelativeToolTip": "Read_Andro\\Resources\\values\\ic_launcher_background.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T11:44:02.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "Read_Andro\\Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Nathan\\Programmation\\Programme test\\Read_Andro\\Read_Andro\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "Read_Andro\\Resources\\layout\\activity_main.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-06-22T11:42:10.519Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ba58fdf3-7af7-4b60-b69b-40ac68d83b75}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

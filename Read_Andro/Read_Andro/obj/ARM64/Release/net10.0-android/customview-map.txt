@@ -1,0 +1,14 @@
+adaptive-icon;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon.xml
+adaptive-icon;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon_round.xml
+background;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon.xml
+background;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon_round.xml
+color;obj\ARM64\Release\net10.0-android\res\values\ic_launcher_background.xml
+foreground;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon.xml
+foreground;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\appicon_round.xml
+image;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\base64.xml
+RelativeLayout;obj\ARM64\Release\net10.0-android\res\layout\activity_main.xml
+resources;obj\ARM64\Release\net10.0-android\res\values\ic_launcher_background.xml
+resources;obj\ARM64\Release\net10.0-android\res\values\strings.xml
+root;obj\ARM64\Release\net10.0-android\res\mipmap-anydpi-v26\base64.xml
+string;obj\ARM64\Release\net10.0-android\res\values\strings.xml
+TextView;obj\ARM64\Release\net10.0-android\res\layout\activity_main.xml

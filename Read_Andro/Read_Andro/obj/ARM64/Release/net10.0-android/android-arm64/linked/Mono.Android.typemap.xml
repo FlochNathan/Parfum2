@@ -1,0 +1,183 @@
+<api type="release" assembly-name="Mono.Android" mvid="7ca55212141b4ff6b05a3b76c153fd4c">
+  <module assembly-name="Mono.Android" mvid="7ca55212141b4ff6b05a3b76c153fd4c" mvid-bytes="ElKlfBsU9k+wWjt2wVP9TA==">
+    <duplicates>
+      <entry java-name="javax/security/cert/Certificate" managed-type-name="Javax.Security.Cert.CertificateInvoker" token="33554527" />
+      <entry java-name="javax/security/cert/X509Certificate" managed-type-name="Javax.Security.Cert.X509CertificateInvoker" token="33554529" />
+      <entry java-name="javax/net/SocketFactory" managed-type-name="Javax.Net.SocketFactoryInvoker" token="33554532" />
+      <entry java-name="javax/net/ssl/HttpsURLConnection" managed-type-name="Javax.Net.Ssl.HttpsURLConnectionInvoker" token="33554534" />
+      <entry java-name="javax/net/ssl/HostnameVerifier" managed-type-name="Javax.Net.Ssl.IHostnameVerifierInvoker" token="33554536" />
+      <entry java-name="javax/net/ssl/KeyManager" managed-type-name="Javax.Net.Ssl.IKeyManagerInvoker" token="33554538" />
+      <entry java-name="javax/net/ssl/SSLSession" managed-type-name="Javax.Net.Ssl.ISSLSessionInvoker" token="33554540" />
+      <entry java-name="javax/net/ssl/SSLSessionContext" managed-type-name="Javax.Net.Ssl.ISSLSessionContextInvoker" token="33554542" />
+      <entry java-name="javax/net/ssl/TrustManager" managed-type-name="Javax.Net.Ssl.ITrustManagerInvoker" token="33554544" />
+      <entry java-name="javax/net/ssl/SSLSocketFactory" managed-type-name="Javax.Net.Ssl.SSLSocketFactoryInvoker" token="33554548" />
+      <entry java-name="android/os/IBinder$DeathRecipient" managed-type-name="Android.OS.IBinderDeathRecipientInvoker" token="33554561" />
+      <entry java-name="android/os/IBinder$FrozenStateChangeCallback" managed-type-name="Android.OS.IBinder/IFrozenStateChangeCallbackInvoker" token="33554564" />
+      <entry java-name="android/os/IBinder" managed-type-name="Android.OS.IBinderInvoker" token="33554565" />
+      <entry java-name="android/os/IInterface" managed-type-name="Android.OS.IInterfaceInvoker" token="33554567" />
+      <entry java-name="android/os/VibrationEffect" managed-type-name="Android.OS.VibrationEffectInvoker" token="33554572" />
+      <entry java-name="android/os/Vibrator" managed-type-name="Android.OS.VibratorInvoker" token="33554573" />
+      <entry java-name="java/util/Collection" managed-type-name="Android.Runtime.JavaCollection`1" token="33554601" skip-in-java-to-managed="True" />
+      <entry java-name="java/util/HashMap" managed-type-name="Android.Runtime.JavaDictionary`2" token="33554607" skip-in-java-to-managed="True" />
+      <entry java-name="java/util/ArrayList" managed-type-name="Android.Runtime.JavaList`1" token="33554612" skip-in-java-to-managed="True" />
+      <entry java-name="java/util/HashSet" managed-type-name="Android.Runtime.JavaSet`1" token="33554616" skip-in-java-to-managed="True" />
+      <entry java-name="android/net/Uri" managed-type-name="Android.Net.UriInvoker" token="33554636" />
+      <entry java-name="android/content/BroadcastReceiver" managed-type-name="Android.Content.BroadcastReceiverInvoker" token="33554642" />
+      <entry java-name="android/content/Context" managed-type-name="Android.Content.ContextInvoker" token="33554644" />
+      <entry java-name="android/content/SharedPreferences$Editor" managed-type-name="Android.Content.ISharedPreferencesEditorInvoker" token="33554648" />
+      <entry java-name="android/content/SharedPreferences$OnSharedPreferenceChangeListener" managed-type-name="Android.Content.ISharedPreferencesOnSharedPreferenceChangeListenerInvoker" token="33554650" />
+      <entry java-name="android/content/SharedPreferences" managed-type-name="Android.Content.ISharedPreferencesInvoker" token="33554652" />
+      <entry java-name="android/app/Service" managed-type-name="Android.App.ServiceInvoker" token="33554667" />
+      <entry java-name="java/net/HttpURLConnection" managed-type-name="Java.Net.HttpURLConnectionInvoker" token="33554673" />
+      <entry java-name="java/net/SocketAddress" managed-type-name="Java.Net.SocketAddressInvoker" token="33554679" />
+      <entry java-name="java/net/URLConnection" managed-type-name="Java.Net.URLConnectionInvoker" token="33554685" />
+      <entry java-name="java/security/Key" managed-type-name="Java.Security.IKeyInvoker" token="33554687" />
+      <entry java-name="java/security/Principal" managed-type-name="Java.Security.IPrincipalInvoker" token="33554689" />
+      <entry java-name="java/security/PrivateKey" managed-type-name="Java.Security.IPrivateKeyInvoker" token="33554691" />
+      <entry java-name="java/security/spec/EncodedKeySpec" managed-type-name="Java.Security.Spec.EncodedKeySpecInvoker" token="33554696" />
+      <entry java-name="java/security/spec/KeySpec" managed-type-name="Java.Security.Spec.IKeySpecInvoker" token="33554698" />
+      <entry java-name="java/security/cert/Certificate" managed-type-name="Java.Security.Cert.CertificateInvoker" token="33554701" />
+      <entry java-name="java/nio/channels/FileChannel" managed-type-name="Java.Nio.Channels.FileChannelInvoker" token="33554703" />
+      <entry java-name="java/nio/channels/spi/AbstractInterruptibleChannel" managed-type-name="Java.Nio.Channels.Spi.AbstractInterruptibleChannelInvoker" token="33554705" />
+      <entry java-name="java/io/InputStream" managed-type-name="Java.IO.InputStreamInvoker" token="33554710" />
+      <entry java-name="java/io/Serializable" managed-type-name="Java.IO.ISerializableInvoker" token="33554714" />
+      <entry java-name="java/io/OutputStream" managed-type-name="Java.IO.OutputStreamInvoker" token="33554716" />
+      <entry java-name="java/util/Enumeration" managed-type-name="Java.Util.IEnumerationInvoker" token="33554718" />
+      <entry java-name="java/util/Iterator" managed-type-name="Java.Util.IIteratorInvoker" token="33554720" />
+      <entry java-name="java/util/function/Consumer" managed-type-name="Java.Util.Functions.IConsumerInvoker" token="33554723" />
+      <entry java-name="java/util/concurrent/Executor" managed-type-name="Java.Util.Concurrent.IExecutorInvoker" token="33554725" />
+      <entry java-name="java/lang/Enum" managed-type-name="Java.Lang.EnumInvoker" token="33554747" />
+      <entry java-name="java/lang/CharSequence" managed-type-name="Java.Lang.ICharSequenceInvoker" token="33554749" />
+      <entry java-name="java/lang/Runnable" managed-type-name="Java.Lang.IRunnableInvoker" token="33554755" />
+      <entry java-name="java/lang/Number" managed-type-name="Java.Lang.NumberInvoker" token="33554760" />
+    </duplicates>
+    <types-scratch>
+      <entry key="javax/security/cert/Certificate" java-name="javax/security/cert/Certificate" managed-type-name="Javax.Security.Cert.Certificate" token="33554526" />
+      <entry key="javax/security/cert/X509Certificate" java-name="javax/security/cert/X509Certificate" managed-type-name="Javax.Security.Cert.X509Certificate" token="33554528" />
+      <entry key="javax/security/auth/Subject" java-name="javax/security/auth/Subject" managed-type-name="Javax.Security.Auth.Subject" token="33554530" />
+      <entry key="javax/net/SocketFactory" java-name="javax/net/SocketFactory" managed-type-name="Javax.Net.SocketFactory" token="33554531" />
+      <entry key="javax/net/ssl/HttpsURLConnection" java-name="javax/net/ssl/HttpsURLConnection" managed-type-name="Javax.Net.Ssl.HttpsURLConnection" token="33554533" />
+      <entry key="javax/net/ssl/HostnameVerifier" java-name="javax/net/ssl/HostnameVerifier" managed-type-name="Javax.Net.Ssl.IHostnameVerifier" token="33554535" skip-in-java-to-managed="True" />
+      <entry key="javax/net/ssl/KeyManager" java-name="javax/net/ssl/KeyManager" managed-type-name="Javax.Net.Ssl.IKeyManager" token="33554537" skip-in-java-to-managed="True" />
+      <entry key="javax/net/ssl/SSLSession" java-name="javax/net/ssl/SSLSession" managed-type-name="Javax.Net.Ssl.ISSLSession" token="33554539" skip-in-java-to-managed="True" />
+      <entry key="javax/net/ssl/SSLSessionContext" java-name="javax/net/ssl/SSLSessionContext" managed-type-name="Javax.Net.Ssl.ISSLSessionContext" token="33554541" skip-in-java-to-managed="True" />
+      <entry key="javax/net/ssl/TrustManager" java-name="javax/net/ssl/TrustManager" managed-type-name="Javax.Net.Ssl.ITrustManager" token="33554543" skip-in-java-to-managed="True" />
+      <entry key="javax/net/ssl/KeyManagerFactory" java-name="javax/net/ssl/KeyManagerFactory" managed-type-name="Javax.Net.Ssl.KeyManagerFactory" token="33554545" />
+      <entry key="javax/net/ssl/SSLContext" java-name="javax/net/ssl/SSLContext" managed-type-name="Javax.Net.Ssl.SSLContext" token="33554546" />
+      <entry key="javax/net/ssl/SSLSocketFactory" java-name="javax/net/ssl/SSLSocketFactory" managed-type-name="Javax.Net.Ssl.SSLSocketFactory" token="33554547" />
+      <entry key="javax/net/ssl/TrustManagerFactory" java-name="javax/net/ssl/TrustManagerFactory" managed-type-name="Javax.Net.Ssl.TrustManagerFactory" token="33554549" />
+      <entry key="android/widget/Toast" java-name="android/widget/Toast" managed-type-name="Android.Widget.Toast" token="33554550" />
+      <entry key="android/os/Handler" java-name="android/os/Handler" managed-type-name="Android.OS.Handler" token="33554552" />
+      <entry key="android/os/Vibrator" java-name="android/os/Vibrator" managed-type-name="Android.OS.Vibrator" token="33554553" />
+      <entry key="android/os/BaseBundle" java-name="android/os/BaseBundle" managed-type-name="Android.OS.BaseBundle" token="33554554" />
+      <entry key="android/os/Build" java-name="android/os/Build" managed-type-name="Android.OS.Build" token="33554555" />
+      <entry key="android/os/Build$VERSION" java-name="android/os/Build$VERSION" managed-type-name="Android.OS.Build/VERSION" token="33554556" />
+      <entry key="android/os/Bundle" java-name="android/os/Bundle" managed-type-name="Android.OS.Bundle" token="33554558" />
+      <entry key="android/os/Environment" java-name="android/os/Environment" managed-type-name="Android.OS.Environment" token="33554559" />
+      <entry key="android/os/IBinder$DeathRecipient" java-name="android/os/IBinder$DeathRecipient" managed-type-name="Android.OS.IBinderDeathRecipient" token="33554560" skip-in-java-to-managed="True" />
+      <entry key="android/os/IBinder" java-name="android/os/IBinder" managed-type-name="Android.OS.IBinder" token="33554562" skip-in-java-to-managed="True" />
+      <entry key="android/os/IBinder$FrozenStateChangeCallback" java-name="android/os/IBinder$FrozenStateChangeCallback" managed-type-name="Android.OS.IBinder/IFrozenStateChangeCallback" token="33554563" skip-in-java-to-managed="True" />
+      <entry key="android/os/IInterface" java-name="android/os/IInterface" managed-type-name="Android.OS.IInterface" token="33554566" skip-in-java-to-managed="True" />
+      <entry key="android/os/Looper" java-name="android/os/Looper" managed-type-name="Android.OS.Looper" token="33554568" />
+      <entry key="android/os/Parcel" java-name="android/os/Parcel" managed-type-name="Android.OS.Parcel" token="33554569" />
+      <entry key="android/os/VibrationEffect" java-name="android/os/VibrationEffect" managed-type-name="Android.OS.VibrationEffect" token="33554571" />
+      <entry key="android/media/ToneGenerator" java-name="android/media/ToneGenerator" managed-type-name="Android.Media.ToneGenerator" token="33554574" />
+      <entry key="android/view/ContextThemeWrapper" java-name="android/view/ContextThemeWrapper" managed-type-name="Android.Views.ContextThemeWrapper" token="33554577" />
+      <entry key="mono/android/runtime/InputStreamAdapter" java-name="mono/android/runtime/InputStreamAdapter" managed-type-name="Android.Runtime.InputStreamAdapter" token="33554598" />
+      <entry key="java/util/Collection" java-name="java/util/Collection" managed-type-name="Android.Runtime.JavaCollection" token="33554600" />
+      <entry key="java/util/HashMap" java-name="java/util/HashMap" managed-type-name="Android.Runtime.JavaDictionary" token="33554602" />
+      <entry key="java/util/ArrayList" java-name="java/util/ArrayList" managed-type-name="Android.Runtime.JavaList" token="33554611" />
+      <entry key="mono/android/runtime/JavaObject" java-name="mono/android/runtime/JavaObject" managed-type-name="Android.Runtime.JavaObject" token="33554613" />
+      <entry key="android/runtime/JavaProxyThrowable" java-name="android/runtime/JavaProxyThrowable" managed-type-name="Android.Runtime.JavaProxyThrowable" token="33554614" />
+      <entry key="java/util/HashSet" java-name="java/util/HashSet" managed-type-name="Android.Runtime.JavaSet" token="33554615" />
+      <entry key="mono/android/runtime/OutputStreamAdapter" java-name="mono/android/runtime/OutputStreamAdapter" managed-type-name="Android.Runtime.OutputStreamAdapter" token="33554627" />
+      <entry key="android/net/Uri" java-name="android/net/Uri" managed-type-name="Android.Net.Uri" token="33554635" />
+      <entry key="android/content/Context" java-name="android/content/Context" managed-type-name="Android.Content.Context" token="33554638" />
+      <entry key="android/content/Intent" java-name="android/content/Intent" managed-type-name="Android.Content.Intent" token="33554639" />
+      <entry key="android/content/BroadcastReceiver" java-name="android/content/BroadcastReceiver" managed-type-name="Android.Content.BroadcastReceiver" token="33554641" />
+      <entry key="android/content/ComponentName" java-name="android/content/ComponentName" managed-type-name="Android.Content.ComponentName" token="33554643" />
+      <entry key="android/content/ContextWrapper" java-name="android/content/ContextWrapper" managed-type-name="Android.Content.ContextWrapper" token="33554645" />
+      <entry key="android/content/SharedPreferences$Editor" java-name="android/content/SharedPreferences$Editor" managed-type-name="Android.Content.ISharedPreferencesEditor" token="33554647" skip-in-java-to-managed="True" />
+      <entry key="android/content/SharedPreferences$OnSharedPreferenceChangeListener" java-name="android/content/SharedPreferences$OnSharedPreferenceChangeListener" managed-type-name="Android.Content.ISharedPreferencesOnSharedPreferenceChangeListener" token="33554649" skip-in-java-to-managed="True" />
+      <entry key="android/content/SharedPreferences" java-name="android/content/SharedPreferences" managed-type-name="Android.Content.ISharedPreferences" token="33554651" skip-in-java-to-managed="True" />
+      <entry key="android/app/Activity" java-name="android/app/Activity" managed-type-name="Android.App.Activity" token="33554656" />
+      <entry key="android/app/Application" java-name="android/app/Application" managed-type-name="Android.App.Application" token="33554657" />
+      <entry key="android/app/Notification" java-name="android/app/Notification" managed-type-name="Android.App.Notification" token="33554658" />
+      <entry key="android/app/Notification$Builder" java-name="android/app/Notification$Builder" managed-type-name="Android.App.Notification/Builder" token="33554659" />
+      <entry key="android/app/NotificationManager" java-name="android/app/NotificationManager" managed-type-name="Android.App.NotificationManager" token="33554660" />
+      <entry key="android/app/NotificationChannel" java-name="android/app/NotificationChannel" managed-type-name="Android.App.NotificationChannel" token="33554664" />
+      <entry key="android/app/Service" java-name="android/app/Service" managed-type-name="Android.App.Service" token="33554666" />
+      <entry key="java/net/ConnectException" java-name="java/net/ConnectException" managed-type-name="Java.Net.ConnectException" token="33554670" />
+      <entry key="java/net/HttpURLConnection" java-name="java/net/HttpURLConnection" managed-type-name="Java.Net.HttpURLConnection" token="33554672" />
+      <entry key="java/net/InetSocketAddress" java-name="java/net/InetSocketAddress" managed-type-name="Java.Net.InetSocketAddress" token="33554674" />
+      <entry key="java/net/ProtocolException" java-name="java/net/ProtocolException" managed-type-name="Java.Net.ProtocolException" token="33554675" />
+      <entry key="java/net/Proxy" java-name="java/net/Proxy" managed-type-name="Java.Net.Proxy" token="33554676" />
+      <entry key="java/net/Proxy$Type" java-name="java/net/Proxy$Type" managed-type-name="Java.Net.Proxy/Type" token="33554677" />
+      <entry key="java/net/SocketAddress" java-name="java/net/SocketAddress" managed-type-name="Java.Net.SocketAddress" token="33554678" />
+      <entry key="java/net/SocketException" java-name="java/net/SocketException" managed-type-name="Java.Net.SocketException" token="33554680" />
+      <entry key="java/net/SocketTimeoutException" java-name="java/net/SocketTimeoutException" managed-type-name="Java.Net.SocketTimeoutException" token="33554681" />
+      <entry key="java/net/UnknownServiceException" java-name="java/net/UnknownServiceException" managed-type-name="Java.Net.UnknownServiceException" token="33554682" />
+      <entry key="java/net/URL" java-name="java/net/URL" managed-type-name="Java.Net.URL" token="33554683" />
+      <entry key="java/net/URLConnection" java-name="java/net/URLConnection" managed-type-name="Java.Net.URLConnection" token="33554684" />
+      <entry key="java/security/Key" java-name="java/security/Key" managed-type-name="Java.Security.IKey" token="33554686" skip-in-java-to-managed="True" />
+      <entry key="java/security/Principal" java-name="java/security/Principal" managed-type-name="Java.Security.IPrincipal" token="33554688" skip-in-java-to-managed="True" />
+      <entry key="java/security/PrivateKey" java-name="java/security/PrivateKey" managed-type-name="Java.Security.IPrivateKey" token="33554690" skip-in-java-to-managed="True" />
+      <entry key="java/security/KeyFactory" java-name="java/security/KeyFactory" managed-type-name="Java.Security.KeyFactory" token="33554692" />
+      <entry key="java/security/KeyStore" java-name="java/security/KeyStore" managed-type-name="Java.Security.KeyStore" token="33554693" />
+      <entry key="java/security/SecureRandom" java-name="java/security/SecureRandom" managed-type-name="Java.Security.SecureRandom" token="33554694" />
+      <entry key="java/security/spec/EncodedKeySpec" java-name="java/security/spec/EncodedKeySpec" managed-type-name="Java.Security.Spec.EncodedKeySpec" token="33554695" />
+      <entry key="java/security/spec/KeySpec" java-name="java/security/spec/KeySpec" managed-type-name="Java.Security.Spec.IKeySpec" token="33554697" skip-in-java-to-managed="True" />
+      <entry key="java/security/spec/PKCS8EncodedKeySpec" java-name="java/security/spec/PKCS8EncodedKeySpec" managed-type-name="Java.Security.Spec.PKCS8EncodedKeySpec" token="33554699" />
+      <entry key="java/security/cert/Certificate" java-name="java/security/cert/Certificate" managed-type-name="Java.Security.Cert.Certificate" token="33554700" />
+      <entry key="java/nio/channels/FileChannel" java-name="java/nio/channels/FileChannel" managed-type-name="Java.Nio.Channels.FileChannel" token="33554702" />
+      <entry key="java/nio/channels/spi/AbstractInterruptibleChannel" java-name="java/nio/channels/spi/AbstractInterruptibleChannel" managed-type-name="Java.Nio.Channels.Spi.AbstractInterruptibleChannel" token="33554704" />
+      <entry key="java/io/File" java-name="java/io/File" managed-type-name="Java.IO.File" token="33554706" />
+      <entry key="java/io/FileDescriptor" java-name="java/io/FileDescriptor" managed-type-name="Java.IO.FileDescriptor" token="33554707" />
+      <entry key="java/io/FileInputStream" java-name="java/io/FileInputStream" managed-type-name="Java.IO.FileInputStream" token="33554708" />
+      <entry key="java/io/InputStream" java-name="java/io/InputStream" managed-type-name="Java.IO.InputStream" token="33554709" />
+      <entry key="java/io/InterruptedIOException" java-name="java/io/InterruptedIOException" managed-type-name="Java.IO.InterruptedIOException" token="33554711" />
+      <entry key="java/io/IOException" java-name="java/io/IOException" managed-type-name="Java.IO.IOException" token="33554712" />
+      <entry key="java/io/Serializable" java-name="java/io/Serializable" managed-type-name="Java.IO.ISerializable" token="33554713" skip-in-java-to-managed="True" />
+      <entry key="java/io/OutputStream" java-name="java/io/OutputStream" managed-type-name="Java.IO.OutputStream" token="33554715" />
+      <entry key="java/util/Enumeration" java-name="java/util/Enumeration" managed-type-name="Java.Util.IEnumeration" token="33554717" skip-in-java-to-managed="True" />
+      <entry key="java/util/Iterator" java-name="java/util/Iterator" managed-type-name="Java.Util.IIterator" token="33554719" skip-in-java-to-managed="True" />
+      <entry key="java/util/Random" java-name="java/util/Random" managed-type-name="Java.Util.Random" token="33554721" />
+      <entry key="java/util/function/Consumer" java-name="java/util/function/Consumer" managed-type-name="Java.Util.Functions.IConsumer" token="33554722" skip-in-java-to-managed="True" />
+      <entry key="java/util/concurrent/Executor" java-name="java/util/concurrent/Executor" managed-type-name="Java.Util.Concurrent.IExecutor" token="33554724" skip-in-java-to-managed="True" />
+      <entry key="java/lang/Boolean" java-name="java/lang/Boolean" managed-type-name="Java.Lang.Boolean" token="33554726" />
+      <entry key="java/lang/Byte" java-name="java/lang/Byte" managed-type-name="Java.Lang.Byte" token="33554727" />
+      <entry key="java/lang/Character" java-name="java/lang/Character" managed-type-name="Java.Lang.Character" token="33554728" />
+      <entry key="java/lang/Class" java-name="java/lang/Class" managed-type-name="Java.Lang.Class" token="33554729" />
+      <entry key="java/lang/ClassNotFoundException" java-name="java/lang/ClassNotFoundException" managed-type-name="Java.Lang.ClassNotFoundException" token="33554730" />
+      <entry key="java/lang/Double" java-name="java/lang/Double" managed-type-name="Java.Lang.Double" token="33554731" />
+      <entry key="java/lang/Exception" java-name="java/lang/Exception" managed-type-name="Java.Lang.Exception" token="33554732" />
+      <entry key="java/lang/Float" java-name="java/lang/Float" managed-type-name="Java.Lang.Float" token="33554733" />
+      <entry key="java/lang/CharSequence" java-name="java/lang/CharSequence" managed-type-name="Java.Lang.ICharSequence" token="33554734" skip-in-java-to-managed="True" />
+      <entry key="java/lang/Integer" java-name="java/lang/Integer" managed-type-name="Java.Lang.Integer" token="33554735" />
+      <entry key="java/lang/Long" java-name="java/lang/Long" managed-type-name="Java.Lang.Long" token="33554736" />
+      <entry key="java/lang/Object" java-name="java/lang/Object" managed-type-name="Java.Lang.Object" token="33554737" />
+      <entry key="java/lang/RuntimeException" java-name="java/lang/RuntimeException" managed-type-name="Java.Lang.RuntimeException" token="33554738" />
+      <entry key="java/lang/Short" java-name="java/lang/Short" managed-type-name="Java.Lang.Short" token="33554739" />
+      <entry key="java/lang/String" java-name="java/lang/String" managed-type-name="Java.Lang.String" token="33554740" />
+      <entry key="java/lang/Thread" java-name="java/lang/Thread" managed-type-name="Java.Lang.Thread" token="33554742" />
+      <entry key="mono/java/lang/RunnableImplementor" java-name="mono/java/lang/RunnableImplementor" managed-type-name="Java.Lang.Thread/RunnableImplementor" token="33554743" />
+      <entry key="java/lang/Throwable" java-name="java/lang/Throwable" managed-type-name="Java.Lang.Throwable" token="33554744" />
+      <entry key="java/lang/ClassCastException" java-name="java/lang/ClassCastException" managed-type-name="Java.Lang.ClassCastException" token="33554745" />
+      <entry key="java/lang/Enum" java-name="java/lang/Enum" managed-type-name="Java.Lang.Enum" token="33554746" />
+      <entry key="java/lang/Error" java-name="java/lang/Error" managed-type-name="Java.Lang.Error" token="33554748" />
+      <entry key="java/lang/IllegalArgumentException" java-name="java/lang/IllegalArgumentException" managed-type-name="Java.Lang.IllegalArgumentException" token="33554751" />
+      <entry key="java/lang/IllegalStateException" java-name="java/lang/IllegalStateException" managed-type-name="Java.Lang.IllegalStateException" token="33554752" />
+      <entry key="java/lang/IndexOutOfBoundsException" java-name="java/lang/IndexOutOfBoundsException" managed-type-name="Java.Lang.IndexOutOfBoundsException" token="33554753" />
+      <entry key="java/lang/Runnable" java-name="java/lang/Runnable" managed-type-name="Java.Lang.IRunnable" token="33554754" skip-in-java-to-managed="True" />
+      <entry key="java/lang/LinkageError" java-name="java/lang/LinkageError" managed-type-name="Java.Lang.LinkageError" token="33554756" />
+      <entry key="java/lang/NoClassDefFoundError" java-name="java/lang/NoClassDefFoundError" managed-type-name="Java.Lang.NoClassDefFoundError" token="33554757" />
+      <entry key="java/lang/NullPointerException" java-name="java/lang/NullPointerException" managed-type-name="Java.Lang.NullPointerException" token="33554758" />
+      <entry key="java/lang/Number" java-name="java/lang/Number" managed-type-name="Java.Lang.Number" token="33554759" />
+      <entry key="java/lang/ReflectiveOperationException" java-name="java/lang/ReflectiveOperationException" managed-type-name="Java.Lang.ReflectiveOperationException" token="33554761" />
+      <entry key="java/lang/SecurityException" java-name="java/lang/SecurityException" managed-type-name="Java.Lang.SecurityException" token="33554762" />
+      <entry key="java/lang/StackTraceElement" java-name="java/lang/StackTraceElement" managed-type-name="Java.Lang.StackTraceElement" token="33554763" />
+      <entry key="java/lang/UnsupportedOperationException" java-name="java/lang/UnsupportedOperationException" managed-type-name="Java.Lang.UnsupportedOperationException" token="33554764" />
+      <entry key="mono/android/TypeManager" java-name="mono/android/TypeManager" managed-type-name="Java.Interop.TypeManager/JavaTypeManager" token="33554779" />
+    </types-scratch>
+  </module>
+</api>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Ce code a été généré par un outil.
+    Il a été généré à partir de C:\Nathan\Programmation\Programme test\Read_Andro\Read_Andro\AndroidManifest.xml
+    Les changements apportés à ce fichier peuvent provoquer un comportement incorrect et seront perdus si
+    le contenu est regénéré.
+    -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" package="com.companyname.Read_Andro" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:supportsRtl="true" android:name="android.app.Application" android:extractNativeLibs="true">
+    <activity android:label="@string/app_name" android:name="crc647257767dbea74abd.MainActivity" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <service android:name="crc647257767dbea74abd.MyForegroundService" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.Read_Andro.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

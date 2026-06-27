@@ -1,0 +1,8 @@
+<api type="release" assembly-name="Read_Andro" mvid="93cba4374bd54c9a858fa5eb8333e59b">
+  <module assembly-name="Read_Andro" mvid="93cba4374bd54c9a858fa5eb8333e59b" mvid-bytes="N6TLk9VLmkyFj6XrgzPlmw==">
+    <types-scratch>
+      <entry key="crc647257767dbea74abd/MainActivity" java-name="crc647257767dbea74abd/MainActivity" managed-type-name="Read_Andro.MainActivity" token="33554434" />
+      <entry key="crc647257767dbea74abd/MyForegroundService" java-name="crc647257767dbea74abd/MyForegroundService" managed-type-name="Read_Andro.MyForegroundService" token="33554435" />
+    </types-scratch>
+  </module>
+</api>

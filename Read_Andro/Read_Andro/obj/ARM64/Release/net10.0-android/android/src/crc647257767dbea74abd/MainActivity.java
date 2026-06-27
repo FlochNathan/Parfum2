@@ -1,0 +1,38 @@
+package crc647257767dbea74abd;
+
+
+public class MainActivity
+	extends android.app.Activity
+	implements
+		mono.android.IGCUserPeer
+{
+
+	public MainActivity ()
+	{
+		super ();
+		if (getClass () == MainActivity.class) {
+			mono.android.TypeManager.Activate ("Read_Andro.MainActivity, Read_Andro", "", this, new java.lang.Object[] {  });
+		}
+	}
+
+	public void onCreate (android.os.Bundle p0)
+	{
+		n_onCreate (p0);
+	}
+
+	private native void n_onCreate (android.os.Bundle p0);
+
+	private java.util.ArrayList refList;
+	public void monodroidAddReference (java.lang.Object obj)
+	{
+		if (refList == null)
+			refList = new java.util.ArrayList ();
+		refList.add (obj);
+	}
+
+	public void monodroidClearReferences ()
+	{
+		if (refList != null)
+			refList.clear ();
+	}
+}

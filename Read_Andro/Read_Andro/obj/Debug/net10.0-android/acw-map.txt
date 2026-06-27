@@ -1,0 +1,6 @@
+Read_Andro.MainActivity, Read_Andro;crc647257767dbea74abd.MainActivity
+Read_Andro.MainActivity;crc647257767dbea74abd.MainActivity
+read_andro.MainActivity;crc647257767dbea74abd.MainActivity
+Read_Andro.MyForegroundService, Read_Andro;crc647257767dbea74abd.MyForegroundService
+Read_Andro.MyForegroundService;crc647257767dbea74abd.MyForegroundService
+read_andro.MyForegroundService;crc647257767dbea74abd.MyForegroundService
