@@ -4,6 +4,7 @@ const mysql = require('mysql2/promise');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
+const { Readable } = require('stream');
 const requireAuth = require('../middleware/auth');
 
 const UPLOADS_DIR = path.join(__dirname, '..', 'uploads');
@@ -11,13 +12,27 @@ if (!fs.existsSync(UPLOADS_DIR)) fs.mkdirSync(UPLOADS_DIR, { recursive: true });
 
 const ALLOWED_MIME = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'];
 
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => cb(null, UPLOADS_DIR),
-  filename: (req, file, cb) => {
-    const ext = path.extname(file.originalname);
-    cb(null, `prod_${Date.now()}${Math.random().toString(36).slice(2)}${ext}`);
-  },
-});
+const USE_CLOUDINARY = !!process.env.CLOUDINARY_CLOUD_NAME;
+
+let cloudinary;
+if (USE_CLOUDINARY) {
+  cloudinary = require('cloudinary').v2;
+  cloudinary.config({
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET,
+  });
+}
+
+const storage = USE_CLOUDINARY
+  ? multer.memoryStorage()
+  : multer.diskStorage({
+      destination: (req, file, cb) => cb(null, UPLOADS_DIR),
+      filename: (req, file, cb) => {
+        const ext = path.extname(file.originalname);
+        cb(null, `prod_${Date.now()}${Math.random().toString(36).slice(2)}${ext}`);
+      },
+    });
 
 const upload = multer({
   storage,
@@ -27,6 +42,22 @@ const upload = multer({
     else cb(new Error('Type de fichier non autorisé'));
   },
 });
+
+async function uploadToCloudinary(buffer) {
+  return new Promise((resolve, reject) => {
+    const stream = cloudinary.uploader.upload_stream(
+      { folder: 'douceurs-laura', resource_type: 'image' },
+      (err, result) => (err ? reject(err) : resolve(result.secure_url))
+    );
+    Readable.from(buffer).pipe(stream);
+  });
+}
+
+async function resolvePhoto(file) {
+  if (!file) return null;
+  if (USE_CLOUDINARY) return uploadToCloudinary(file.buffer);
+  return file.filename;
+}
 
 async function getDB() {
   return mysql.createConnection({
@@ -80,9 +111,9 @@ router.post('/', requireAuth, upload.single('photo'), async (req, res) => {
   if (!titre || !prix || !categorie) {
     return res.status(400).json({ error: 'Champs requis manquants' });
   }
-  const photo = req.file ? req.file.filename : null;
   let db;
   try {
+    const photo = await resolvePhoto(req.file);
     db = await getDB();
     const [result] = await db.execute(
       'INSERT INTO produits (titre, description, prix, photo, categorie) VALUES (?, ?, ?, ?, ?)',
@@ -111,12 +142,15 @@ router.put('/:id', requireAuth, upload.single('photo'), async (req, res) => {
     let photo = produit.photo;
 
     if (req.file) {
-      // Delete old image
-      if (produit.photo) {
-        const oldPath = path.join(UPLOADS_DIR, produit.photo);
-        if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+      if (USE_CLOUDINARY) {
+        photo = await uploadToCloudinary(req.file.buffer);
+      } else {
+        if (produit.photo && !produit.photo.startsWith('http')) {
+          const oldPath = path.join(UPLOADS_DIR, produit.photo);
+          if (fs.existsSync(oldPath)) fs.unlinkSync(oldPath);
+        }
+        photo = req.file.filename;
       }
-      photo = req.file.filename;
     }
 
     await db.execute(
@@ -150,7 +184,7 @@ router.delete('/:id', requireAuth, async (req, res) => {
     if (existing.length === 0) return res.status(404).json({ error: 'Produit introuvable' });
 
     const produit = existing[0];
-    if (produit.photo) {
+    if (produit.photo && !produit.photo.startsWith('http')) {
       const imgPath = path.join(UPLOADS_DIR, produit.photo);
       if (fs.existsSync(imgPath)) fs.unlinkSync(imgPath);
     }

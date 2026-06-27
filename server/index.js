@@ -20,7 +20,11 @@ app.use('/api/produits', require('./routes/produits'));
 app.use('/api/commandes', require('./routes/commandes'));
 app.use('/api/contact', require('./routes/contact'));
 
-const PORT = process.env.PORT || 8081;
-app.listen(PORT, () => {
-  console.log(`Serveur démarré sur http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  const PORT = process.env.PORT || 8081;
+  app.listen(PORT, () => {
+    console.log(`Serveur démarré sur http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;

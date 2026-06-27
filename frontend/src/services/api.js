@@ -1,5 +1,8 @@
 // src/services/api.js
 import axios from 'axios';
+import { MOCK_PRODUITS } from '../data/produits';
+
+const USE_MOCK = process.env.REACT_APP_MOCK === 'true';
 
 const BASE_URL = process.env.REACT_APP_API_URL || '/api';
 
@@ -30,11 +33,23 @@ export const login = (credentials) =>
   api.post('/auth/login', credentials).then((r) => r.data);
 
 // ─── Produits ─────────────────────────────────────
-export const getProduits = (categorie) =>
-  api.get('/produits', { params: categorie ? { categorie } : {} }).then((r) => r.data);
+export const getProduits = (categorie) => {
+  if (USE_MOCK) {
+    const filtered = categorie
+      ? MOCK_PRODUITS.filter((p) => p.categorie === categorie)
+      : MOCK_PRODUITS;
+    return Promise.resolve(filtered);
+  }
+  return api.get('/produits', { params: categorie ? { categorie } : {} }).then((r) => r.data);
+};
 
-export const getProduit = (id) =>
-  api.get(`/produits/${id}`).then((r) => r.data);
+export const getProduit = (id) => {
+  if (USE_MOCK) {
+    const p = MOCK_PRODUITS.find((p) => p.id === Number(id));
+    return p ? Promise.resolve(p) : Promise.reject(new Error('Produit introuvable'));
+  }
+  return api.get(`/produits/${id}`).then((r) => r.data);
+};
 
 export const createProduit = (formData) =>
   api.post('/produits', formData, { headers: { 'Content-Type': 'multipart/form-data' } }).then((r) => r.data);
